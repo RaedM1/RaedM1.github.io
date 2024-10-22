@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+header h1 {
+    color: #333;
+}
+
+.introduction {
+    background-color: #844242;
+    padding: 10px;
+    border: 2px solid #ccc;
+}
+
+#intro {
+    font-style: italic;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.content h2 {
+    color: #007BFF;
+}
+
+.external-link {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.external-link:hover {
+    color: #03101e;
+}
+
+#my-image {
+    width: auto; /* Allows the width to adjust automatically */
+    max-width: 100%; /* Restricts the image to not exceed the container's width */
+    height: auto; /* Maintains the aspect ratio */
+    max-height: 100px; /* Set a maximum height, adjust as needed */
+    display: block; /* Centers the image if the container is centered */
+    margin: 0 auto; /* Centers the image horizontally */
+}
