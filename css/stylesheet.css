@@ -1,11 +1,7 @@
-/*body {
+body {
     font-family: Arial, sans-serif;
     margin: 20px;
     padding: 20px;
-}
-*/
-body {
-    background-color: yellow; /* Should turn the entire background yellow */
 }
 
 header h1 {
@@ -13,7 +9,7 @@ header h1 {
 }
 
 .introduction {
-    background-color: #844242;
+    background-color: #4c3df2;
     padding: 10px;
     border: 2px solid #ccc;
 }
@@ -40,10 +36,10 @@ header h1 {
 }
 
 #my-image {
-    width: auto; /* Allows the width to adjust automatically */
-    max-width: 100%; /* Restricts the image to not exceed the container's width */
-    height: auto; /* Maintains the aspect ratio */
-    max-height: 100px; /* Set a maximum height, adjust as needed */
-    display: block; /* Centers the image if the container is centered */
-    margin: 0 auto; /* Centers the image horizontally */
+    width: auto; 
+    max-width: 100%; 
+    height: auto; 
+    max-height: 300px; 
+    display: block; 
+    margin: auto; 
 }
